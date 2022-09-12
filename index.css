@@ -48,6 +48,7 @@ header {
 
 .card-link {
     color: black;
+    background-color: white;
     text-decoration: none;
     border: 1px solid black;
     border-radius: 10px;
