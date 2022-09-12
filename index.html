@@ -19,6 +19,7 @@
         </header>
         <hr />
         <h3 id='welcome-message'>Welcome to my personal web-page. This is where I keep most public information about myself, including information about my personal life and what I am up to at work these days.</h3>
+        <hr />
         <section id='bio'>
             <h3>Biography</h3>
             <p>I have spent a considerable amount of time learning about how computers work. From an early age, I have been fascinated with how the modern computer is logical magic. After moving through my first programming class is high school, I was intrigued to learn more about exactly how these machines operated.</p>
@@ -27,7 +28,37 @@
             <p>This is where my story intersects with the present. I will add more biographical information as it occurs. Given the length of the section, it will take something quite important to cause a change in the near future.</p>
         </section>
         <section id='flatiron'>
-            <h3>Work at Flatiron School</h3> 
+            <h3>Work at Flatiron School</h3>
+            <p>I have spent about 2 years working for Flatiron School as of today, September 12 2022. I began shortly after finishing the software engineering program in 2020. The curriculum at the time focused on both the theoretical discussion and implementation of a full stack web application. The backend technology, which was tuaght first, used Ruby and Rails with relational databases. The frontend was comprised of templating technology provided by Rails (ERB), and then React with Rails as a web API.</p>
+            <p>Since then, the curriculum has shifted to a front end first layout, with vanilla javascript and React taught first, and following up with the backend using Rails. The curriculum is front-end focused, with a concentration on the microservice-based approach the web is taking in today's world. This means a clear distinction between the backend server and the frontend client. This also means that javascript controlls client side routing, rather than the browser making default requests. These applications that allow javascript to control routing are referred to as Single Page Applications (SPA), and are the only way Flatiron School teaches front end implementation.</p>
+            <p>I spend about 20 hours a week in a one on one paradigm with student engineers, helping them build and refine their critical thinking process. I assist in every aspect of the curriculum, including work in data structures and algorithms, and system administration. I hold hour-long workshops every day for several cohorts, which cover a range of subtopics of the technologies mentioned just before this, and in the paragraph above.</p>
+            <p>I spend much of my day programming, but I have experience leading a team of software coaches, along with administrative duties including holding techincal interviews and onboarding new team members. I have had to assume several roles in my short time here so far, and enjoy the ability to help out where I am needed, while making sure my techincal abilities are put to use.</p>
+
+        </section>
+        <section id='projects'>
+            <h3>Personal Projects</h3>
+            <p>In addition to working at Flatiron, I have built out several of my own personal projects. Each one touches on a different technology stack or programming paradigm. I have written full stack web applicationsand APIs, including other hobby projects such as game engines. I also maintain and develop the web service for Deep Blue Dynamic LLC, my consulting company. I will list several of my projects below, with links to source code. </p>
+            <h3 id='project-header'>Projects</h3>
+            <div id='cards'>
+                <a class='card-link' href='https://github.com/richwblake/BrickBreaker' target='_blank'>
+                    <div class='p-card'>
+                        <h4>BrickBreaker</h4>
+                        <p>A vanilla javascript breakbreaker game. The game engine is created from scratch, while the scoreboard data on the backend uses rails.</p>
+                    </div>
+                </a>
+                <a class='card-link' href='https://github.com/richwblake/mernapp' target='_blank'>
+                    <div class='p-card'>
+                        <h4>Goali</h4>
+                        <p>A goal tracking app created with React as the frontend with Redux as the state management library, alongside express and MongoDB as the backend. Includes authentication with JSON web token (JWT).</p>
+                    </div>
+                </a>
+                <a class='card-link' href='https://github.com/richwblake/Winterbot' target='_blank'>
+                    <div class='p-card'>
+                        <h4>Winterbot</h4>
+                        <p>A python application that runs a discord bot with polling functionality. Originally designed and used to assist with polling students in a university classroom.</p>
+                    </div>
+                </a>
+            </div>
         </section>
     </body>
 </html>

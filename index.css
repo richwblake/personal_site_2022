@@ -25,6 +25,11 @@ header {
     text-align: center;
 }
 
+#project-header {
+    text-align: center;
+    padding: 1rem;
+}
+
 .light-mode {
     background-color: white;
     color: black;
@@ -33,4 +38,20 @@ header {
 .dark-mode {
     background-color: black;
     color: white;
+}
+
+#cards {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.card-link {
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 20%;
+    text-align: center;
 }
