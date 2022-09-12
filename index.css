@@ -1,0 +1,36 @@
+* {
+    font-family: 'Helvetica', 'sans-serif';
+}
+
+body {
+    margin: auto;
+    width: 75%
+}
+
+header {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+#head-title h1, h2 {
+    margin: 20px 0 0 0;
+}
+
+#mode-btn {
+    margin: auto 0 0 0;
+}
+
+#welcome-message {
+    text-align: center;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
